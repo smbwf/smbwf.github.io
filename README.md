@@ -1,7 +1,7 @@
 # Fangame de Super Mario Bros. Wonder
-Super Mario Bros. Wonder Fan Game
-Desarrollado por: [@manzft27](https://youtube.com/@manzft27)
-Plataformas: Android, Windows, Linux
+> [!NOTE] Super Mario Bros. Wonder Fan Game
+> Desarrollado por: [@manzft27](https://youtube.com/@manzft27)
+> Plataformas: Android, Windows, Linux
 
 ### Acerca del Juego:
 
