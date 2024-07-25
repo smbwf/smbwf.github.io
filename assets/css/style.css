@@ -122,3 +122,20 @@ a {
   /* ... otras propiedades ... */
   margin: 0 auto; /* Centra el botón horizontalmente */
 }
+.credits {
+    font-size: 14px; /* Tamaño de fuente */
+    color: #666; /* Color de texto gris oscuro */
+    text-align: center; /* Alineación centrada */
+    margin-top: 20px; /* Margen superior */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.credits a {
+    color: #007bff; /* Color de los enlaces azul */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    transition: color 0.3s ease; /* Transición suave del color */
+}
+
+.credits a:hover {
+    color: #0056b3; /* Cambio de color al pasar el cursor */
+}
