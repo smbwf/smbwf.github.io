@@ -4,6 +4,12 @@
 > Desarrollado por: [@manzft27](https://youtube.com/@manzft27)
 > Plataformas: Android, Windows, Linux
 
+> [!TIP]
+> mira aquí y comparte
+> nuestro reglamento oficial
+> [Ver Reglamento](https://smbwf.github.io/)
+___
+
 ### Acerca del Juego:
 
 Este es un fangame inspirado en Super Mario Bros. Wonder, desarrollado de forma independiente por un solo creador. El juego se encuentra en constante evolución y ofrece una experiencia multijugador única.
