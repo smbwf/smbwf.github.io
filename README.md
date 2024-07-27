@@ -16,6 +16,7 @@
 
 > ## Que piensa el desarrollador?
 > enterate aquí en esta sección
+> 
 > [Planes y Metas](https://smbwf.github.io/about)
 ___
 
