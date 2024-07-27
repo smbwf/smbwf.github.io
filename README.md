@@ -8,6 +8,15 @@
 > mira aquí y comparte
 > nuestro reglamento oficial
 > [Ver Reglamento](https://smbwf.github.io/)
+
+> [!TIP]
+> Enterate de los avisos
+> importantes del fan game
+> [Avisos Importantes](https://smbwf.github.io/aviso)
+
+> ## Que piensa el desarrollador?
+> enterate aquí en esta sección
+> [Planes y Metas](https://smbwf.github.io/about)
 ___
 
 ### Acerca del Juego:
