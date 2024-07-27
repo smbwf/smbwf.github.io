@@ -1,0 +1,115 @@
+body {
+    font-family: 'Oswald', Arial, sans-serif;
+    background-color: #222; /* Light yellow, similar to Mario levels */
+    text-align: center;
+}
+
+.mario-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #FF0000; /* Red, reminiscent of Mario's enemies */
+}
+
+h2 {
+    color: #7e88d0; /* White, for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 100, 200, 0.5);
+}
+
+p {
+    color: #7e88d0;
+    line-height: 1.5;
+}
+
+.footer {
+    color: #7e88d0;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    /*z-index: 999; Para que siempre esté al frente */
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer span {
+    font-weight: bold;
+    color: #00A8E8; /* Azul, similar al cielo de Mario */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efecto 3D sutil */
+}
+
+h3 {
+  color: #454625;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-class {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lancelot-regular {
+  font-family: "Lancelot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.amarillo {
+  text-decoration: underline;
+  text-decoration-color: #444a1d;
+}
+
+.rojo {
+  text-decoration: underline;
+  text-decoration-color: #713131;
+}
+
+hr {
+  border: 1px solid #8B4513; /* Color marrón oscuro, similar a los bloques de Mario */
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para un efecto 3D sutil */
+}
+
+.footer-redes {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.footer-redes a {
+  display: inline-block;
+  margin: 0 10px; /* Espacio entre las imágenes */
+}
+
+.footer-redes img {
+  width: 30px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  height: 30px;
+}
+.footer-redes a:hover {
+  opacity: 0.7; /* Opacidad al pasar el ratón */
+}
+.imagen-centrada {
+  display: block;
+  margin: 0 auto;
+  width: 100%; /* Ajusta el ancho de la imagen al 100% de su contenedor */
+  height: auto;  /* Mantiene la proporción original de la imagen */
+  object-fit: contain; /* Hace que la imagen se ajuste al contenedor sin distorsionar */
+  
+}
+
+.imagen-centrada:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 5px rgba(0, 128, 0, 0.8);
+}
