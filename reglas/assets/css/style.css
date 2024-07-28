@@ -1,116 +1,141 @@
 body {
-    font-family: 'Oswald', Arial, sans-serif;
-    background-color: #222; /* Light yellow, similar to Mario levels */
-    text-align: center;
-}
-
-.mario-box {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #ccc;
+    margin: 0;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-    color: #FF0000; /* Red, reminiscent of Mario's enemies */
+header {
+    text-align: center;
+    color: cyan;
 }
 
-h2 {
-    color: #7e88d0; /* White, for contrast */
-    text-shadow: 2px 2px 4px rgba(0, 100, 200, 0.5);
+main {
+    margin-top: 20px;
 }
 
 p {
-    color: #7e88d0;
-    line-height: 1.5;
+    text-align: justify;
+    text-indent: 2em;
+    border-left: 5px solid #007bff;
+    padding-left: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.footer {
-    color: #7e88d0;
+strong {
+    color: cyan;
+    text-decoration: underline;
+}
+
+footer {
     text-align: center;
-    padding: 20px;
-    bottom: 0;
-    /*z-index: 999; Para que siempre esté al frente */
+    margin-top: 20px;
 }
 
-.footer p {
-    margin: 0;
+a {
+    color: cyan;
+    text-decoration: none;
 }
 
-.footer span {
-    font-weight: bold;
-    color: #00A8E8; /* Azul, similar al cielo de Mario */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efecto 3D sutil */
-}
-
-h3 {
-  color: #454625;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 700
-
-.oswald-class {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.lancelot-regular {
-  font-family: "Lancelot", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.amarillo {
-  text-decoration: underline;
-  text-decoration-color: #444a1d;
-}
-
-.rojo {
-  text-decoration: underline;
-  text-decoration-color: #713131;
-}
-
-hr {
-  border: 1px solid #8B4513; /* Color marrón oscuro, similar a los bloques de Mario */
-  border-radius: 5px;
-  width: 80%;
-  margin: 20px auto;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para un efecto 3D sutil */
-}
-
-.footer-redes {
-  text-align: center;
-  padding: 20px;
-  
-}
-
-.footer-redes a {
-  display: inline-block;
-  margin: 0 10px; /* Espacio entre las imágenes */
-}
-
-.footer-redes img {
-  width: 30px; /* Ajusta el tamaño de las imágenes según sea necesario */
-  height: 30px;
-}
-.footer-redes a:hover {
-  opacity: 0.7; /* Opacidad al pasar el ratón */
-}
-.imagen-centrada {
+.imagen-principal {
   display: block;
   margin: 0 auto;
-  width: 100%; /* Ajusta el ancho de la imagen al 100% de su contenedor */
-  height: auto;  /* Mantiene la proporción original de la imagen */
-  object-fit: contain; /* Hace que la imagen se ajuste al contenedor sin distorsionar */
-  
+  max-width: 100%; /* Ajusta el ancho máximo según tus necesidades */
+  box-shadow: 0px 10px 20px rgba(0, 0, 255, 0.5); /* Sombra azul degradada */
+  border-radius: 10px; /* Bordes redondeados */
+  transition: transform 0.3s ease-in-out; /* Transición suave para el efecto hover */
 }
 
-.imagen-centrada:active {
-  transform: translateY(2px);
-  box-shadow: 0px 2px 5px rgba(0, 128, 0, 0.8);
+.imagen-principal:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+  box-shadow: 0px 15px 30px rgba(0, 0, 255, 0.7); /* Aumenta la intensidad de la sombra */
+}
+.anuncio-contenedor {
+  /* Aquí puedes agregar estilos adicionales para el contenedor si lo deseas,
+     como un margen externo o un fondo de color diferente */
 }
 
+.anuncio {
+  /* Los estilos de la clase 'anuncio' se mantienen igual */
+  border: 2px solid blue;
+  padding: 20px;
+  margin: 20px;
+  color: #972;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+}
+
+/* ... Resto de tus estilos CSS */
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  margin: 0 auto;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+.button-64 {
+  /* ... otras propiedades ... */
+  margin: 0 auto; /* Centra el botón horizontalmente */
+}
+.credits {
+    font-size: 14px; /* Tamaño de fuente */
+    color: #666; /* Color de texto gris oscuro */
+    text-align: center; /* Alineación centrada */
+    margin-top: 20px; /* Margen superior */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.credits a {
+    color: #007bff; /* Color de los enlaces azul */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    transition: color 0.3s ease; /* Transición suave del color */
+}
+
+.credits a:hover {
+    color: #0056b3; /* Cambio de color al pasar el cursor */
+}
