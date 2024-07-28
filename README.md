@@ -3,11 +3,14 @@
 > Super Mario Bros. Wonder Fan Game
 > Desarrollado por: [@manzft27](https://youtube.com/@manzft27)
 > Plataformas: Android, Windows, Linux
-
+___
+## WEB:
+* [Ver aquí](https://smbwf.github.io/)
+___
 > [!TIP]
 > mira aquí y comparte
 > nuestro reglamento oficial
-> [Ver Reglamento](https://smbwf.github.io/)
+> [Ver Reglamento](https://smbwf.github.io/reglas/)
 
 > [!TIP]
 > Enterate de los avisos
