@@ -388,12 +388,12 @@ button:focus {
 
 
 .discord-message {
-  font-family: Arial, sans-serif;
   background: linear-gradient(145deg, #7289DA, #99AAB5);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  width: 300px;
+  max-width: 600px;
+  margin: 20px auto;
   animation: gradientAnimation 5s ease infinite;
 }
 
@@ -410,8 +410,8 @@ button:focus {
 }
 
 .discord-avatar {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -460,4 +460,61 @@ button:focus {
 
 .join-discord i {
   margin-right: 5px;
+}
+
+
+
+.unique-twitter-post {
+  background-color: #15202B; /* Twitter dark background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.unique-twitter-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.unique-twitter-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.unique-twitter-username {
+  font-weight: bold;
+  color: #1DA1F2; /* Twitter blue color */
+}
+
+.unique-twitter-handle {
+  color: #8899A6;
+  margin-left: 5px;
+}
+
+.unique-twitter-content {
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.unique-twitter-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.unique-twitter-icons i {
+  color: #1DA1F2;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.unique-twitter-icons i:hover {
+  color: #0d8dd9;
 }
