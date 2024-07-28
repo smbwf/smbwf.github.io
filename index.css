@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 body,html {
     padding:0px;
     margin:0px;
@@ -385,3 +386,78 @@ button:focus {
    -webkit-tap-highlight-color: transparent;
 }
 
+
+.discord-message {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(145deg, #7289DA, #99AAB5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.discord-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.discord-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.discord-username {
+  color: #fff;
+  font-weight: bold;
+}
+
+.discord-message-content {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.discord-everyone {
+  color: #8E44AD; /* Purple color */
+  background-color: rgba(142, 68, 173, 0.2); /* Lighter, transparent purple background */
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.join-discord {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.join-discord button {
+  background-color: #5865F2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.join-discord button:hover {
+  background-color: #4E5DC6;
+}
+
+.join-discord i {
+  margin-right: 5px;
+}
