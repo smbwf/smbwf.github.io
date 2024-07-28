@@ -518,3 +518,71 @@ button:focus {
 .unique-twitter-icons i:hover {
   color: #0d8dd9;
 }
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #21273d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.vertical-line {
+  width: 8px; /* Más gruesa */
+  background-color: #8E44AD; /* Purple color */
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ebe692;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #ebe692;
+  margin-bottom: 20px;
+}
+
+.image-right {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  flex-shrink: 0;
+  margin-top: -20px; /* Ajusta la posición vertical de la imagen */
+}
+
+.image-bottom {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content {
+  flex: 1;
+  color: #ebe692;
+}
