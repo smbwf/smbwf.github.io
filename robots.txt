@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://smbwf.github.io/sitemap.xml
