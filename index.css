@@ -348,3 +348,40 @@ button:focus {
   border: 0;
   border-radius: 20px; /* Smooth borders for iframe */
 }
+
+.footer-social {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.footer-social h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+}
+
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+   -webkit-tap-highlight-color: transparent;
+}
+
+.social-icons img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  border-radius: 10px; /* Smooth borders */
+  box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3), 0 6px 20px rgba(0, 255, 0, 0.2); /* Green shadows for 3D effect */
+   -webkit-tap-highlight-color: transparent;
+}
+
