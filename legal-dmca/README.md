@@ -1,5 +1,7 @@
 **POLÍTICA LEGAL DMCA - Super Mario Bros Wonder Fan Game**
 
+[Terminos Legales](https://smbwf.github.io/legal-dmca/)
+
 Super Mario Bros Wonder Fan Game (en adelante, "el Fangame") es un proyecto creado por fanáticos y para fanáticos, y no está afiliado ni respaldado por Nintendo. Este sitio web (en adelante, "el Sitio") no aloja ni distribuye archivos de juegos, archivos multimedia, o cualquier otro contenido protegido por derechos de autor propiedad de Nintendo o de cualquier otra entidad.
 
 ### 1. **Contenido del Sitio**
