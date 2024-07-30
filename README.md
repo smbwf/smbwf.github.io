@@ -6,6 +6,7 @@
 ___
 ## WEB:
 * [Ver aquí](https://smbwf.github.io/)
+* [Terminos Legales](https://smbwf.github.io/legal-dmca/)
 ___
 > [!TIP]
 > mira aquí y comparte
