@@ -1,23 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://smbwf.github.io/</loc>
-        <lastmod>2024-07-28T09:53:34+01:00</lastmod>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://smbwf.github.io/reglas/</loc>
-        <lastmod>2024-07-28T09:53:34+01:00</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://smbwf.github.io/about/</loc>
-        <lastmod>2024-07-28T09:53:34+01:00</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://smbwf.github.io/aviso/</loc>
-        <lastmod>2024-07-28T09:53:36+01:00</lastmod>
-        <priority>0.8</priority>
-    </url>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://smbwf.github.io/</loc>
+	<lastmod>2024-07-30T11:57:51+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://smbwf.github.io/legal-dmca/</loc>
+	<lastmod>2024-07-30T11:57:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://smbwf.github.io/reglas/</loc>
+	<lastmod>2024-07-30T11:57:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://smbwf.github.io/about/</loc>
+	<lastmod>2024-07-30T11:57:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://smbwf.github.io/aviso/</loc>
+	<lastmod>2024-07-30T11:57:53+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
