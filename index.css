@@ -594,3 +594,44 @@ section h4,
 section h5 {
   color: red;
 }
+
+/* Estilo del footer fijo */
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #2d2d2d; /* Fondo del footer */
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Estilo del botón */
+.back-to-main-btn {
+  display: inline-block;
+  background-color: #ffeb3b; /* Fondo amarillo del botón */
+  color: #000000; /* Color del texto del botón */
+  padding: 10px 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #000000; /* Borde negro */
+  box-shadow: 0 4px #d32f2f; /* Sombra roja */
+  transition: all 0.2s ease;
+  position: relative;
+  top: 0;
+}
+
+/* Efecto 3D en hover */
+.back-to-main-btn:hover {
+  top: -2px;
+  box-shadow: 0 6px #d32f2f;
+}
+
+/* Efecto de sombra 3D al hacer clic */
+.back-to-main-btn:active {
+  top: 2px;
+  box-shadow: 0 2px #d32f2f;
+}
