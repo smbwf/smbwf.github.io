@@ -635,3 +635,89 @@ section h5 {
   top: 2px;
   box-shadow: 0 2px #d32f2f;
 }
+
+.smbwf-container {
+
+    background-image: url('images/fondo-foter.png');
+
+    background-size: cover;
+
+    background-position: center;
+
+    padding: 20px;
+
+    color: #fff;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.smbwf-links {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+
+
+.smbwf-link-item {
+
+    margin-bottom: 10px;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.smbwf-link-item a {
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    color: #fff;
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+
+    display: inline-block;
+
+    padding: 5px 10px;
+
+    border-radius: 5px;
+
+    background: linear-gradient(145deg, #e91, #4caf50, #2196f3);
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.smbwf-link-item a:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+.smbwf-link-item a:active {
+
+    transform: translateY(0);
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
