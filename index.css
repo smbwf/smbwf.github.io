@@ -436,6 +436,8 @@ button:focus {
 
 .join-discord {
   text-align: center;
+  align-items: center;
+  align-content: center;
   margin-top: 20px;
 }
 
@@ -447,7 +449,6 @@ button:focus {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
-  display: flex;
   align-items: center;
   gap: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
@@ -721,3 +722,65 @@ section h5 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 
 }
+
+/* Estilos únicos para la lista gamer */
+.gamer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+}
+
+.gamer-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #ffeb3b; /* Bordes amarillos */
+  border-radius: 5px;
+  background-color: #333;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.7); /* Sombra roja */
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gamer-list li::before {
+  content: '• ';
+  color: #ffeb3b; /* Color amarillo */
+  font-size: 1.2em;
+}
+
+.gamer-list li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 0, 0, 1);
+}
+
+.gamer-list li:active {
+  transform: scale(0.95);
+}
+
+.gamer-list li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gamer-list li:hover::after {
+  opacity: 0.3;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width: 768px) {
+  .gamer-list {
+    text-align: center;
+  }
+}
+
+
